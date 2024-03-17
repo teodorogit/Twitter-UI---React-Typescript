@@ -1,4 +1,3 @@
-import React from 'react'
 import './Tweet.css'
 import { ArrowsClockwise, ChatCircle, Heart } from 'phosphor-react'
 import {Link} from 'react-router-dom'

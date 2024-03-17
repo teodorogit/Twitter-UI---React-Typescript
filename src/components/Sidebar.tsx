@@ -1,7 +1,7 @@
 
 
 import twitterLogo from '../assets/logo-twitter.svg'
-import { Bell, BookmarkSimple, DotsThreeCircle, Envelope, FileText, Hash, House, Pencil, Sparkle, User } from 'phosphor-react'
+import { Bell, BookmarkSimple, DotsThreeCircle, Envelope, FileText, Hash, House, Pencil, User } from 'phosphor-react'
 import './Sidebar.css'
 import {NavLink} from 'react-router-dom'
 

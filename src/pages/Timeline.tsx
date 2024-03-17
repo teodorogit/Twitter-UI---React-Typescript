@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
+import { FormEvent, useState } from 'react'
 import Separator from '../components/Separator'
 import { Header } from '../components/Header'
 import Tweet from '../components/Tweet'
 import './Timeline.css'
-
-let newTweet = ''
   
 
 const Timeline = () => {
@@ -15,7 +13,7 @@ const Timeline = () => {
       'deu certo tweetar'
     ])
 
-    function createNewTweet(event: FormEvent) {
+    function createNewTweet(event:FormEvent) {
     event.preventDefault();
 
     setTweets([...tweets,newTweet])
